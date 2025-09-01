@@ -37,10 +37,12 @@ Lasso Regression RMSE compared with y_test mean: 8.247121601600934%
 
 ==================== Improper degrees will cause inaccurate prediction =================
 z-score>=0.5 remove 189 rows, degree=1(Linear)
-Ridge Regression MSE: 742402.4446141971
-Lasso Regression MSE: 721694.4953613415
-Ridge Regression RMSE: 861.6277877449155
-Lasso Regression RMSE: 849.5260416028113
+Linear Regression MSE: 1.200670839395259e+25
+Cross-Validation Mean Score: 1.284277709857956e+29
+Ridge Regression MSE: 778268.6391030301
+Lasso Regression MSE: 727712.8644755475
+Ridge Regression RMSE: 882.1953520071561
+Lasso Regression RMSE: 853.0608797005917
 
 z-score>=0.5 remove 189 rows, degree=2
 Linear Regression MSE: 1.0583699903252886e+26

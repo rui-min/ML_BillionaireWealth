@@ -17,7 +17,7 @@ Lasso Regression MSE: 1386318.9683942243
 Ridge Regression RMSE: 1012.2713116483866
 Lasso Regression RMSE: 1177.420472216372
 
-z-score>=1.5 remove 58 rows, degree=4
+z-score>=1.5 remove 81 rows, degree=4
 Linear Regression MSE: 3.838085900270474e+23
 Cross-Validation Mean Score: 3.797485121313743e+24
 Ridge Regression MSE: 28349478.886640307

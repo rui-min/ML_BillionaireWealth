@@ -1,0 +1,67 @@
+=========== the z-score and degree we use =============
+z-score>=0.5 remove 189 rows, degree=4
+Linear Regression MSE: 2.0709124907315157e+24
+Cross-Validation Mean Score: 2.5440946033317044e+24
+Ridge Regression MSE: 24025.905716891946
+Lasso Regression MSE: 7045.040813713085
+Ridge Regression RMSE: 155.00292163985796
+Lasso Regression RMSE: 83.93474139897666
+
+=========== lower z-score causes inaccurate prediction significantly ==========
+
+z-score>=2 remove 58 rows, degree=4
+Linear Regression MSE: 2.6731887014476293e+21
+Cross-Validation Mean Score: 4.665835984393662e+24
+Ridge Regression MSE: 1024693.208386345
+Lasso Regression MSE: 1386318.9683942243
+Ridge Regression RMSE: 1012.2713116483866
+Lasso Regression RMSE: 1177.420472216372
+
+z-score>=1.5 remove 58 rows, degree=4
+Linear Regression MSE: 3.838085900270474e+23
+Cross-Validation Mean Score: 3.797485121313743e+24
+Ridge Regression MSE: 28349478.886640307
+Lasso Regression MSE: 671505.4306599676
+Ridge Regression RMSE: 5324.422868878871
+Lasso Regression RMSE: 819.4543493447134
+
+z-score>=1 remove 117 rows, degree=4
+Linear Regression MSE: 1.9380479957966533e+25
+Cross-Validation Mean Score: 1.1584964863552828e+25
+Ridge Regression MSE: 187006.79573126437
+Lasso Regression MSE: 66074.67353085452
+Ridge Regression RMSE: 432.44282365564163
+Lasso Regression RMSE: 257.0499436507515
+Lasso Regression RMSE compared with y_test mean: 8.247121601600934%
+
+
+==================== Improper degrees will cause inaccurate prediction =================
+z-score>=0.5 remove 189 rows, degree=1(Linear)
+Ridge Regression MSE: 742402.4446141971
+Lasso Regression MSE: 721694.4953613415
+Ridge Regression RMSE: 861.6277877449155
+Lasso Regression RMSE: 849.5260416028113
+
+z-score>=0.5 remove 189 rows, degree=2
+Linear Regression MSE: 1.0583699903252886e+26
+Cross-Validation Mean Score: 5.73139205304151e+27
+Ridge Regression MSE: 172754.25992775336
+Lasso Regression MSE: 168278.4454127364
+Ridge Regression RMSE: 415.63717341902105
+Lasso Regression RMSE: 410.2175586353373
+
+z-score>=0.5 remove 189 rows, degree=3
+Linear Regression MSE: 7.802733237110413e+25
+Cross-Validation Mean Score: 4.410368787492019e+27
+Ridge Regression MSE: 44377.59988191206
+Lasso Regression MSE: 36167.05155348417
+Ridge Regression RMSE: 210.65991522335725
+Lasso Regression RMSE: 190.17636959802385
+
+z-score>=0.5 remove 189 rows, degree=5
+Linear Regression MSE: 4.3668189638255624e+16
+Cross-Validation Mean Score: 4.095509809957797e+22
+Ridge Regression MSE: 108329.1254490582
+Lasso Regression MSE: 64740.99625533105
+Ridge Regression RMSE: 329.1339020050323
+Lasso Regression RMSE: 254.44252053328478

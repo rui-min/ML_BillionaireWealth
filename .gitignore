@@ -8,8 +8,8 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-refNotebooks
-*/refNotebooks/*
+# refNotebooks
+# */refNotebooks/*
 
 # IPython
 profile_default/

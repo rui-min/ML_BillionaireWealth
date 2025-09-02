@@ -67,3 +67,24 @@ Ridge Regression MSE: 108329.1254490582
 Lasso Regression MSE: 64740.99625533105
 Ridge Regression RMSE: 329.1339020050323
 Lasso Regression RMSE: 254.44252053328478
+
+
+===============if drop 'rank' column(suerior strong correlation col)===================
+Drop 'rank' column, z-score>=0.5 remove 189 rows, degree=1:
+Linear Regression MSE: 4297638.755226841
+Cross-Validation Mean Score: 5.785619274033098e+27
+Ridge Regression MSE: 3644132.5250530415
+Lasso Regression MSE: 3580741.103870719
+Ridge Regression RMSE: 1908.961111456449
+Lasso Regression RMSE: 1892.284625491292
+Mean of y_test data: 2938.60
+Lasso Regression(the best model) RMSE compared with y_test mean: 64.39%
+
+
+Drop 'rank' column, z-score>=0.5 remove 189 rows, degree=4:
+Linear Regression MSE: 7.633564056499906e+26
+Cross-Validation Mean Score: 5.785619274033098e+27
+Ridge Regression MSE: 4187593.4332966604
+Lasso Regression MSE: 3657483.199113375
+Ridge Regression RMSE: 2046.3610222286438
+Lasso Regression RMSE: 1912.4547574030018

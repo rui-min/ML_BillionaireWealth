@@ -12,8 +12,4 @@
 profile_default/
 ipython_config.py
 
-svm-makeMoons-RA.ipynb
-svm-WineClassification-RA.ipynb
-end-to-end-studentsPerformance-RA.ipynb
-
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks
